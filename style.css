@@ -16,11 +16,6 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
- 
-/* Firefox */
-input[type=number] {
-  -moz-appearance:textfield;
-}
 
 .main {
     display: flex;
@@ -65,8 +60,6 @@ button:hover {
 .calc__settings {
     display: flex;
     width: 200px;
-}
-.calc__result {
 }
 
 .calc_bcg{
